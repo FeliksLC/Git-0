@@ -8,6 +8,11 @@ public class Main {
         System.out.println(str);
         Scanner scanQ = new Scanner(System.in);
         int x = scanQ.nextInt();
-        System.out.println(str + " egen " + x);
+        if (x == 2) {
+            System.out.println(str + " again " + "2 + " + x + " = 4");
+        } else if (x != 2) {
+            System.out.println(str + " again " + "2 + ... something is wrong" );
+        }
+
     }
 }
